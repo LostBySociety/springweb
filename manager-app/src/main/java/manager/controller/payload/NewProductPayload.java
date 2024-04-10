@@ -1,4 +1,4 @@
-package manager.Controller.payload;
+package manager.controller.payload;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;

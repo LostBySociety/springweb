@@ -1,11 +1,10 @@
-package manager.Controller;
+package manager.controller;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import manager.Controller.payload.NewProductPayload;
+import manager.controller.payload.NewProductPayload;
 import manager.entity.Product;
 import manager.service.ProductService;
-import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -15,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @RequiredArgsConstructor
 @RequestMapping ("catalogue/products")
-public class ProductsController {
+public class ProductListController {
     private final ProductService productService;
 
     @RequestMapping(value = "list", method = RequestMethod.GET)

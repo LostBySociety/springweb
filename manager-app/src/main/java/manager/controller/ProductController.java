@@ -1,10 +1,9 @@
-package manager.Controller;
+package manager.controller;
 
-import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import manager.Controller.payload.UpdateProductPayload;
+import manager.controller.payload.UpdateProductPayload;
 import manager.entity.Product;
 import manager.service.ProductService;
 import org.springframework.context.MessageSource;
